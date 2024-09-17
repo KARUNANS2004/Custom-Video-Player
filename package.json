@@ -1,0 +1,12 @@
+{
+  "name": "custom-video-player",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/vid.css -o ./src/output.css --watch",
+    "watch:css": "npx tailwindcss -i ./src/vid.css -o ./src/output.css --watch"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
